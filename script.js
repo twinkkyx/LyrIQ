@@ -1,8 +1,20 @@
 const yearNode = document.getElementById("year");
 const mailingForm = document.querySelector(".mailing-form");
+const menuToggle = document.getElementById("menu-toggle");
+const siteNav = document.getElementById("site-nav");
 
 if (yearNode) {
   yearNode.textContent = String(new Date().getFullYear());
+}
+
+if (menuToggle && siteNav) {
+  menuToggle.addEventListener("click", () => {
+    siteNav.classList.toggle("open");
+  });
+
+  siteNav.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => siteNav.classList.remove("open"));
+  });
 }
 
 if (mailingForm instanceof HTMLFormElement) {
