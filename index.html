@@ -3,212 +3,178 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LyrIQ | Credible, Accessible, Affordable Learning Platforms</title>
+    <title>LyrIQ | Building the next generation of student platforms</title>
     <meta
       name="description"
-      content="LyrIQ builds credible, accessible and affordable platforms for high schoolers through research, poetry, mentorship, and impact-first programs."
+      content="LyrIQ builds credible, accessible and affordable platforms for high schoolers through research, poetry, mentorship and impact-first programs."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Playfair+Display:wght@500;600;700&amp;display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div class="page-glow page-glow-top" aria-hidden="true"></div>
-    <div class="page-glow page-glow-bottom" aria-hidden="true"></div>
-
     <header class="site-header">
-      <div class="container header-inner">
-        <a href="#home" class="brand">
+      <div class="container top-bar">
+        <a class="brand" href="#home">
           <span class="brand-mark">LQ</span>
-          <span class="brand-text">LyrIQ</span>
+          <span class="brand-wordmark">LyrIQ</span>
         </a>
-        <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu">
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
           <span></span>
           <span></span>
           <span></span>
         </button>
-        <nav class="site-nav" id="site-nav">
-          <a href="#about">About</a>
+        <nav id="site-nav" class="site-nav">
           <a href="#achievements">Achievements</a>
           <a href="#programs">Programs</a>
-          <a href="#impact-roadmap">Impact Roadmap</a>
-          <a href="#contact" class="nav-cta">Join LyrIQ</a>
+          <a href="#impact-roadmap">Impact Building</a>
+          <a href="#partners">Partners</a>
+          <a href="#contact" class="nav-button">Join LyrIQ</a>
         </nav>
       </div>
     </header>
 
     <main id="home">
-      <section class="hero container">
-        <p class="eyebrow">The LyrIQ Group</p>
-        <h1>Building credible, accessible and affordable platforms for high schoolers.</h1>
-        <p class="hero-subtitle">
-          LyrIQ empowers students through research, poetry, mentorship and leadership opportunities
-          that create measurable impact in schools across India.
-        </p>
-        <div class="hero-pillars" aria-label="Core pillars">
-          <span>Credible</span>
-          <span>Accessible</span>
-          <span>Affordable</span>
+      <section class="container hero">
+        <div class="hero-copy">
+          <p class="overline">The LyrIQ Group</p>
+          <h1>We help ambitious students build credible futures.</h1>
+          <p>
+            LyrIQ is designing the most credible, accessible, and affordable ecosystem for high
+            schoolers through poetry, research, mentorship, and leadership platforms.
+          </p>
+          <div class="hero-pillars">
+            <span>Credible</span>
+            <span>Accessible</span>
+            <span>Affordable</span>
+          </div>
         </div>
-        <div class="hero-actions">
-          <a href="#programs" class="btn btn-primary">Explore Programs</a>
-          <a href="#contact" class="btn btn-secondary">Partner with Us</a>
-        </div>
+        <aside class="hero-panel">
+          <p class="panel-overline">What we have currently achieved</p>
+          <div class="metric-row">
+            <p>16+ workshops</p>
+            <span>across schools</span>
+          </div>
+          <div class="metric-row">
+            <p>3000+ students</p>
+            <span>directly impacted</span>
+          </div>
+          <div class="metric-row">
+            <p>LPL 2025</p>
+            <span>executed at national scale</span>
+          </div>
+          <div class="metric-row">
+            <p>Times of India + YRI</p>
+            <span>national organisation tie-ins</span>
+          </div>
+        </aside>
       </section>
 
-      <section id="about" class="container stats-section">
-        <div class="stat-card">
-          <p class="stat-value" data-target="16">0+</p>
-          <p class="stat-label">Workshops Delivered</p>
+      <section id="achievements" class="container section">
+        <div class="section-header">
+          <p class="overline">Latest from LyrIQ</p>
+          <h2>Built momentum, with outcomes that matter.</h2>
         </div>
-        <div class="stat-card">
-          <p class="stat-value" data-target="3000">0+</p>
-          <p class="stat-label">Students Impacted</p>
-        </div>
-        <div class="stat-card">
-          <p class="stat-value" data-target="2">0+</p>
-          <p class="stat-label">National Tie-ins (TOI &amp; YRI)</p>
-        </div>
-        <div class="stat-card">
-          <p class="stat-value" data-target="2026">0</p>
-          <p class="stat-label">Next Major League Milestone</p>
-        </div>
-      </section>
-
-      <section id="achievements" class="container section-block">
-        <div class="section-head">
-          <p class="section-kicker">What we have currently achieved</p>
-          <h2>Real momentum, measurable outcomes.</h2>
-        </div>
-        <div class="achievement-grid">
-          <article class="achievement-card">
-            <h3>LPL 2025</h3>
+        <div class="story-grid">
+          <article class="story story-wide">
+            <p class="story-tag">LPL 2025</p>
+            <h3>India-level poetry league led with students at the center.</h3>
             <p>
-              A successful national poetry initiative that set the benchmark for student-led
-              literary excellence and school participation.
+              The LyrIQ Poetry League established a high-visibility, high-credibility stage for
+              student literary talent.
             </p>
           </article>
-          <article class="achievement-card">
-            <h3>16+ workshops in schools</h3>
-            <p>
-              Conducted in diverse institutions with direct learning outcomes and strong student
-              engagement.
-            </p>
+          <article class="story">
+            <p class="story-tag">16+ Workshops</p>
+            <h3>Hands-on programs delivered in diverse schools.</h3>
+            <p>Practical sessions built confidence, communication, and creative discipline.</p>
           </article>
-          <article class="achievement-card">
-            <h3>3000+ students impacted</h3>
-            <p>
-              Through structured programs, school collaborations and experiential sessions
-              nationwide.
-            </p>
+          <article class="story">
+            <p class="story-tag">3000+ Students</p>
+            <h3>Thousands of learners impacted through school collaborations.</h3>
+            <p>Consistent engagement across workshops, leagues, and learning platforms.</p>
           </article>
-          <article class="achievement-card">
-            <h3>National organisation tie-ins</h3>
-            <p>
-              Built strategic associations with <strong>Times of India</strong> and
-              <strong>YRI</strong> to scale credibility and opportunity access.
-            </p>
+          <article class="story">
+            <p class="story-tag">National Tie-ins</p>
+            <h3>Strategic credibility through Times of India and YRI partnerships.</h3>
+            <p>Institutional partnerships to bring legitimacy and wider student opportunity.</p>
           </article>
         </div>
       </section>
 
-      <section id="programs" class="container section-block">
-        <div class="section-head">
-          <p class="section-kicker">Flagship Programs</p>
-          <h2>Built from the current LyrIQ ecosystem.</h2>
+      <section id="programs" class="container section bordered-section">
+        <div class="section-header">
+          <p class="overline">Explore programs</p>
+          <h2>Current platforms built for student outcomes.</h2>
         </div>
-        <div class="program-grid">
-          <article class="program-card">
+        <div class="program-list">
+          <article>
             <h3>TLG x YRI Research Curriculum</h3>
             <p>
-              India-focused school research training for Classes 5–12, with guidance from expert
-              mentors and project publication pathways.
+              India-focused research training for Classes 5-12 with expert guidance, project
+              building, and publication pathways.
             </p>
           </article>
-          <article class="program-card">
+          <article>
             <h3>Momentum</h3>
             <p>
-              A question-first platform where high schoolers get credible, human guidance instead
-              of generic online advice.
+              A question-first platform where high schoolers receive credible, human answers rather
+              than anonymous internet advice.
             </p>
           </article>
-          <article class="program-card">
+          <article>
             <h3>The LyrIQ Poetry League (LPL)</h3>
             <p>
-              A high-visibility poetry league in collaboration with Times of India, with structured
-              judging and recognition opportunities.
+              A national poetry platform developed with Times of India to spotlight student
+              expression and excellence.
             </p>
           </article>
         </div>
       </section>
 
-      <section class="container section-block partners-block">
-        <div class="section-head">
-          <p class="section-kicker">Our Partners &amp; Associations</p>
-          <h2>Trusted by organisations that shape student futures.</h2>
+      <section id="impact-roadmap" class="container section">
+        <div class="section-header">
+          <p class="overline">Impact Building</p>
+          <h2>What LyrIQ is building next.</h2>
         </div>
-        <div class="partner-chips" aria-label="Partner organisations">
-          <span>Times of India</span>
-          <span>YRI</span>
-          <span>Jio</span>
-          <span>BDB</span>
-          <span>Soltara AIS</span>
-          <span>YALIS Research</span>
-          <span>Rapid Defense Inc</span>
+        <ol class="roadmap-list">
+          <li><span>LPL 2026</span></li>
+          <li><span>LPL Accelerator</span></li>
+          <li><span>LyrIQ chapters in schools</span></li>
+          <li><span>THEO</span></li>
+          <li><span>PenPal</span></li>
+          <li><span>Open Mics</span></li>
+          <li><span>Crash courses (+1 for alexithymic patients)</span></li>
+          <li><span>Workshops</span></li>
+        </ol>
+      </section>
+
+      <section id="partners" class="container section bordered-section">
+        <div class="section-header">
+          <p class="overline">Our national organisation tie-ins</p>
+          <h2>Backed by partners shaping education and media.</h2>
+        </div>
+        <div class="partner-grid">
+          <p>Times of India</p>
+          <p>YRI</p>
+          <p>Jio</p>
+          <p>BDB</p>
+          <p>Soltara AIS</p>
+          <p>YALIS Research</p>
+          <p>Rapid Defense Inc</p>
         </div>
       </section>
 
-      <section id="impact-roadmap" class="container section-block">
-        <div class="section-head">
-          <p class="section-kicker">Impact Building</p>
-          <h2>What’s next for LyrIQ.</h2>
+      <section class="container section">
+        <div class="section-header">
+          <p class="overline">Prominent personalities at TLG</p>
+          <h2>Advisory voices and mentors in the ecosystem.</h2>
         </div>
-        <div class="roadmap">
-          <article class="roadmap-item">
-            <h3>LPL 2026</h3>
-            <p>Expanded participation, stronger school delegations, and wider national footprint.</p>
-          </article>
-          <article class="roadmap-item">
-            <h3>LPL Accelerator</h3>
-            <p>An advanced pathway for exceptional student creators to level up their craft.</p>
-          </article>
-          <article class="roadmap-item">
-            <h3>LyrIQ chapters in schools</h3>
-            <p>On-ground student communities that drive leadership and peer-led growth.</p>
-          </article>
-          <article class="roadmap-item">
-            <h3>THEO</h3>
-            <p>A focused initiative to widen intellectual exposure and student opportunity.</p>
-          </article>
-          <article class="roadmap-item">
-            <h3>PenPal</h3>
-            <p>Cross-school and cross-city student communication for empathy and expression.</p>
-          </article>
-          <article class="roadmap-item">
-            <h3>Open Mics</h3>
-            <p>Consistent public speaking and performance spaces for confidence building.</p>
-          </article>
-          <article class="roadmap-item">
-            <h3>Crash courses</h3>
-            <p>Fast-track learning modules, including +1 dedicated support for alexithymic patients.</p>
-          </article>
-          <article class="roadmap-item">
-            <h3>Workshops</h3>
-            <p>More school-level workshops designed for practical impact and measurable outcomes.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="container section-block spotlight-block">
-        <div class="section-head">
-          <p class="section-kicker">Prominent Personalities at TLG</p>
-          <h2>Mentors and leaders guiding our vision.</h2>
-        </div>
-        <div class="spotlight-grid">
+        <div class="people-grid">
           <article>
             <h3>Mr. Hassan Akram</h3>
             <p>Ex-Goldman Sachs Recruiter • Speaker at Stanford, Yale</p>
@@ -228,46 +194,44 @@
         </div>
       </section>
 
-      <section id="contact" class="container section-block contact-block">
-        <div class="contact-card">
-          <div>
-            <p class="section-kicker">Get in touch</p>
-            <h2>Ready to bring LyrIQ into your school?</h2>
-            <p>
-              Connect with us for curriculum partnerships, chapter activations, workshops, or league
-              collaborations.
-            </p>
-          </div>
-          <form class="contact-form">
-            <label>
-              Full Name
-              <input type="text" placeholder="Your name" required />
-            </label>
-            <label>
-              Email
-              <input type="email" placeholder="you@example.com" required />
-            </label>
-            <label>
-              Inquiry Type
-              <select required>
-                <option value="">Select inquiry interest</option>
-                <option>Research Curriculum</option>
-                <option>Momentum</option>
-                <option>LPL</option>
-                <option>Workshops</option>
-                <option>Joining the team</option>
-              </select>
-            </label>
-            <button type="submit" class="btn btn-primary">Send Inquiry</button>
-          </form>
+      <section id="contact" class="container section newsletter">
+        <div>
+          <p class="overline">Join our mailing list</p>
+          <h2>Get the best stories from the LyrIQ community.</h2>
+          <p>
+            Bring LyrIQ into your school for workshops, curriculum partnerships, chapters, and
+            poetry league collaborations.
+          </p>
         </div>
+        <form class="contact-form">
+          <label>
+            Full Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+          <label>
+            Inquiry Interest
+            <select name="interest" required>
+              <option value="">Select inquiry interest</option>
+              <option>Research Curriculum</option>
+              <option>Momentum</option>
+              <option>LPL 2026</option>
+              <option>Workshops</option>
+              <option>Partnerships</option>
+            </select>
+          </label>
+          <button type="submit">Send Inquiry</button>
+        </form>
       </section>
     </main>
 
     <footer class="site-footer">
-      <div class="container footer-inner">
-        <p>© <span id="year"></span> LyrIQ. All rights reserved.</p>
-        <a href="#home">Back to top ↑</a>
+      <div class="container footer-content">
+        <p>© <span id="year"></span> LyrIQ</p>
+        <a href="#home">Back to top</a>
       </div>
     </footer>
 
