@@ -3,12 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LyrIQ | Mirror Layout</title>
-    <meta name="description" content="Mirror draft of the reference layout." />
+    <title>LyrIQ | Editorial Homepage</title>
+    <meta
+      name="description"
+      content="LyrIQ builds credible, accessible and affordable platforms for high schoolers."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&amp;display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
@@ -22,26 +25,61 @@
           <span class="word-highlight oval-wrap">daring</span>
           build
           <br />
-          legendary companies.
+          legendary futures.
         </h1>
       </section>
 
       <header class="nav-strip">
         <div class="nav-inner">
-          <a href="#" class="logo">LYRIQ</a>
+          <a href="#home" class="logo">LYRIQ</a>
           <nav>
-            <a href="#" class="circled">Our Founders</a>
-            <a href="#">Our Companies</a>
-            <a href="#">Our Team</a>
-            <a href="#">Stories</a>
-            <a href="#">Podcasts</a>
-            <a href="#">Arc</a>
+            <a href="#material" class="circled">Our Work</a>
+            <a href="#material">Achievements</a>
+            <a href="#material">Programs</a>
+            <a href="#material">Impact</a>
+            <a href="#mailing">Stories</a>
+            <a href="#mailing">Podcasts</a>
           </nav>
           <button class="search-btn" aria-label="Search">⌕</button>
         </div>
       </header>
 
-      <section class="mailing-wrap">
+      <section id="material" class="material-wrap">
+        <div class="material-grid">
+          <article class="material-card lead">
+            <p class="meta">What we have currently achieved</p>
+            <h2>LPL 2025, 16+ workshops, and 3000+ students impacted.</h2>
+            <p>
+              Built with national tie-ins across Times of India and YRI, creating high credibility
+              for student platforms.
+            </p>
+          </article>
+          <article class="material-card">
+            <p class="meta">Programs</p>
+            <h3>TLG x YRI Research Curriculum</h3>
+            <p>School-level research pathways for Classes 5-12 with expert-led project guidance.</p>
+          </article>
+          <article class="material-card">
+            <p class="meta">Programs</p>
+            <h3>Momentum</h3>
+            <p>A question-first platform for credible, human guidance to high school learners.</p>
+          </article>
+          <article class="material-card">
+            <p class="meta">Programs</p>
+            <h3>The LyrIQ Poetry League</h3>
+            <p>A national student poetry league in collaboration with Times of India.</p>
+          </article>
+          <article class="material-card span-two">
+            <p class="meta">Impact Building</p>
+            <h3>
+              LPL 2026 · LPL Accelerator · LyrIQ Chapters · THEO · PenPal · Open Mics · Crash
+              Courses · Workshops
+            </h3>
+          </article>
+        </div>
+      </section>
+
+      <section id="mailing" class="mailing-wrap">
         <div class="mailing-panel">
           <p class="kicker">Join Our Mailing List</p>
           <h2>Get the best stories from the LyrIQ community.</h2>
@@ -58,21 +96,21 @@
       <div class="footer-inner">
         <div class="footer-col">
           <h3>About</h3>
-          <a href="#">Our Ethos</a>
-          <a href="#">Our History</a>
-          <a href="#">Jobs</a>
-          <a href="#">Legal</a>
+          <a href="#material">Our Ethos</a>
+          <a href="#material">Our History</a>
+          <a href="#material">Jobs</a>
+          <a href="#material">Legal</a>
         </div>
         <div class="footer-col">
           <h3>Business Entities</h3>
-          <a href="#">LyrIQ Capital</a>
-          <a href="#">LyrIQ Heritage</a>
-          <a href="#">LyrIQ Global Equities</a>
+          <a href="#material">LyrIQ Capital</a>
+          <a href="#material">LyrIQ Heritage</a>
+          <a href="#material">LyrIQ Global Equities</a>
         </div>
         <div class="footer-col">
           <h3>Login</h3>
-          <a href="#">LP Login</a>
-          <a href="#">Ampersand Login</a>
+          <a href="#mailing">LP Login</a>
+          <a href="#mailing">LyrIQ Ampersand Login</a>
         </div>
         <div class="footer-col footer-right">
           <h3>Motion</h3>
@@ -80,7 +118,7 @@
             <button class="pill active" type="button">On</button>
             <button class="pill" type="button">Off</button>
           </div>
-          <p>© <span id="year"></span> LyrIQ Capital</p>
+          <p>© <span id="year"></span> LyrIQ</p>
         </div>
       </div>
     </footer>
