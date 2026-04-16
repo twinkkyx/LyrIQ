@@ -3,6 +3,7 @@ const siteNav = document.getElementById("site-nav");
 const navLinks = siteNav ? siteNav.querySelectorAll("a") : [];
 const yearNode = document.getElementById("year");
 const revealNodes = document.querySelectorAll(".reveal");
+const loopPath = document.querySelector(".loop-front");
 
 if (menuToggle && siteNav) {
   menuToggle.addEventListener("click", () => {
@@ -18,6 +19,12 @@ if (menuToggle && siteNav) {
 
 if (yearNode) {
   yearNode.textContent = String(new Date().getFullYear());
+}
+
+if (loopPath instanceof SVGPathElement) {
+  const length = loopPath.getTotalLength();
+  loopPath.style.strokeDasharray = `${length}`;
+  loopPath.style.strokeDashoffset = `${length}`;
 }
 
 if (revealNodes.length > 0) {
